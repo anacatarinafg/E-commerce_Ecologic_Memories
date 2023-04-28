@@ -1,0 +1,13 @@
+export { default as Footer } from './Footer';
+export { default as Navbar } from './Navbar';
+export { default as Cart } from './Cart';
+export { default as Layout } from './Layout';
+export { default as Shop } from './Shop';
+export { default as Product } from './Product';
+export { default as Contact } from './Contact';
+export { default as About } from './About';
+export { default as Menu } from './Menu';
+export { default as Buy } from './Buy';
+export { default as Newsletter } from './Newsletter';
+export { default as Favourites } from './Favourites';
+export { default as Success } from './Success';

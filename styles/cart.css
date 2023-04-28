@@ -1,0 +1,135 @@
+.cart {
+    width: 100%;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.cart__box {
+    height: 100vh;
+    width: 500px;
+    background-color: white;
+    padding: 40px 10px;
+    position: relative;
+    float: right;
+    text-align: center;
+    overflow-y: scroll;
+}
+.cart__button {
+    width: 250px;
+    background-color: red;
+}
+.cart__close {
+    font-size: 24px;
+    position: absolute;
+    right: 10px;
+    color: red;
+    cursor: pointer;
+
+}
+.cart__image {
+    object-fit: cover;
+}
+.cart__headline {
+    text-align: justify;
+}
+.cart__quantity {
+    margin-left: 5px;
+    font-weight: 600;
+
+}
+
+/* Div that will show if there's no products in the cart */
+.cart__empty {
+
+}
+.cart__icon {
+    margin-top: 50px;
+    font-size: 100px;
+
+}
+.cart__empty--text {
+    margin-top: 10px;
+}
+.cart__goShopping {
+    margin-top: 50px;
+    font-size: 34px;
+    font-weight: 600;
+}
+.cart__goShopping span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cart__product {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+    position: relative;
+}
+.cart__removeItem {
+    font-size: 24px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    color: red;
+    background-color: transparent;
+    cursor: pointer;
+}
+.cart__image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.cart__information {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: .5rem;
+}
+.cart__name {
+    font-weight: 600;
+}
+.cart__price {
+    font-weight: 600;
+}
+.cart__add {
+    
+}
+.cart__minus, .cart__qty, .cart__plus {
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.cart__money {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.cart__money span {
+    font-size: 18px;
+    font-weight: 600;
+}
+.cart__total {
+
+}
+.cart__final {
+    font-size: 16px;
+    width: 250px;
+    padding: .7rem;
+    background-color: red;
+    color: #fff;
+    border-radius: 25px;
+    transform: translateY(50%);
+    display: inline-block;
+    cursor: pointer;
+}
+
+@media (max-width: 968px) {
+    .cart__box {
+        width: 100%;
+    }
+  }

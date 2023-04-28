@@ -1,0 +1,34 @@
+{
+  "name": "ecologic-memories",
+  "homepage": "https://anacatarinafg.github.io/e-commerce_ecologic-memories",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@sanity/client": "^3.2.0",
+    "@sanity/image-url": "^1.0.1",
+    "framer-motion": "^7.5.3",
+    "next": "12.3.1",
+    "next-sanity-image": "^3.2.1",
+    "react": "18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.3.1",
+    "react-slideshow-image": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1",
+    "gh-pages": "^5.0.0"
+  }
+}

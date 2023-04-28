@@ -1,0 +1,43 @@
+.confetti {
+    width: 100%;
+    height: 100%;
+}
+.sucess {
+    width: 100%;
+    height: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sucess__box {
+    background-color: #fff;
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sucess__box h2 {
+    margin: 10px 0;
+}
+.sucess__box p {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+@media (max-width: 1023px) {
+    .confetti {
+        width: 100%;
+        height: 100%;
+    }
+    .sucess__box h2 {
+        margin: 10px 0;
+        text-align: center;
+        font-size: 18px;
+    }
+    .sucess__box p {
+        margin: 10px 0;
+        font-weight: 600;
+    }
+}

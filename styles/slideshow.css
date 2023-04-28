@@ -1,0 +1,17 @@
+.slideshow {
+  aspect-ratio: 22/9;
+}
+
+.slideshow__image {
+  min-width: 100%;
+  height: 850px;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .slideshow {
+    aspect-ratio: 4/3;
+  }
+  .slideshow__image {
+    height: 400px;
+  }
+}

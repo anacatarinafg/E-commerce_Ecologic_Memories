@@ -1,0 +1,39 @@
+.promo {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-top: 150px;
+}
+.promo__container {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  font-size: 18px;
+  transition: 250ms;
+  padding: 1rem;
+}
+.promo__container:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+}
+.promo__icon {
+  font-size: 34px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.promo__headline {
+}
+.promo__info {
+}
+.promo__text {
+}
+
+@media (max-width: 1023px) {
+  .promo {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 100px;
+  }
+  .promo__container {
+    margin: 10px auto;
+    font-size: 14px;
+  }
+}

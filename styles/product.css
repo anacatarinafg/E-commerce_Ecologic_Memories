@@ -1,0 +1,22 @@
+.product {
+
+}
+.product__image {
+    width: 60rem;
+    height: 20rem;
+    transition: 250ms;
+    object-fit: cover;
+}
+.product__image:hover {
+    transform: scale(1.01);
+}
+.product__information {
+    text-align: center;
+    text-transform: uppercase;
+}
+.product__name {
+    font-weight: 700;
+}
+.product__price {
+    font-weight: 500;
+}

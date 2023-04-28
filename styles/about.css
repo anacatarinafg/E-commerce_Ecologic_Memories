@@ -1,0 +1,83 @@
+.about {
+    width: 100%;
+    text-align: center;
+    color: var(--text-color);
+    margin: 100px auto;
+}
+.about__headline {
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 30px;
+}
+.about__us {
+    margin-bottom: 30px;
+}
+.about__team {
+
+}
+.about__image {
+    width: 90%;
+}
+.about__objetives {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.about__text {
+    width: 100%;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 1rem;
+}
+.about__list {
+    width: 100%;
+    list-style: circle;
+    list-style-position: inside;
+
+}
+.about__item {
+    padding: .5rem;
+}
+.about__trust {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 50px;
+}
+.about__paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.about__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about__img img {
+    width: 450px;
+    border-radius: 0px;
+}
+.about__message {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.about__message h2 {
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 1023px) {
+    .about__trust {
+    grid-template-columns: repeat(1, 1fr);       
+    }
+}
