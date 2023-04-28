@@ -61,7 +61,7 @@ const shop = ({ products }) => {
   );
 };
 
-export const getServerSideProps = async () => {
+export const getinitialProps = async () => {
   const query = '*[_type == "product"]'; // what we are saying where is - let's grab all the products from our sanity dashboard
 
   const products = await client.fetch(query);
