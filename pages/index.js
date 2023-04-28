@@ -105,7 +105,7 @@ const Home = ({ products, slideshowData }) => {
 };
 
 // getServerSideProps is used to fetch data in Next.js;
-export const getinitialProps = async () => {
+export const getStaticProps = async () => {
   const query = '*[_type == "product"]';
   const products = await client.fetch(query);
 

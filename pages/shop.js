@@ -6,6 +6,8 @@ import { Shop } from "../components";
 
 import { AiOutlineSearch } from "react-icons/ai";
 
+
+
 const shop = ({ products }) => {
   const [findItem, setFindItem] = useState("");
   const [loadMore, setLoadMore] = useState(6);
@@ -61,7 +63,7 @@ const shop = ({ products }) => {
   );
 };
 
-export const getinitialProps = async () => {
+export const getStaticProps = async () => {
   const query = '*[_type == "product"]'; // what we are saying where is - let's grab all the products from our sanity dashboard
 
   const products = await client.fetch(query);
